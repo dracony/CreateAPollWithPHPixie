@@ -1,0 +1,16 @@
+.nav .muted {
+    float: right;
+}
+
+td form {
+    margin-bottom: 0px;
+}
+
+.filled {
+    background: #08C;
+    height: 20px;
+}
+
+.bar {
+    width: 100px;
+}
