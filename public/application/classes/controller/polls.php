@@ -76,6 +76,8 @@ class Polls_Controller extends Controller
 				}
 				$option = ORM::factory('option');
 				$option->name = $name;
+				// Specifying a poll for this option
+				$option->poll = $poll;
 				$option->save();
 				
 				// We add each option to the 'options' relation we defined for the poll
